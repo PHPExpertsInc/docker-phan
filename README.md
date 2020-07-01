@@ -7,9 +7,15 @@ Includes:
  * Latest php-phan
  * ext-ast
 
+It is based off of [**phpexperts/dockerize**](https://github.com/phpexpertsinc/dockerize-php).
+
 # Installation
 
     composer require --dev phpexperts/docker-phan 
+
+### Installation Video
+
+https://www.youtube.com/watch?v=M32VDy5K_xU&feature=youtu.be
 
 ### Configure your PATH
 
@@ -17,7 +23,7 @@ Ensure that your profile PATH includes `./vendor/bin` and that it takes priority
 
     PATH=./vendor/bin:$PATH
 
-## Running
+# Running
 
 Run as normal, per the [phpan documentation](https://github.com/phan/phan).
 
