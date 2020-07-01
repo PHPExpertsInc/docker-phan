@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
+
+docker run -it -v $(pwd):/workdir --rm phpexperts/phan:latest "$@"

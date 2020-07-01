@@ -1,0 +1,23 @@
+{
+    "name": "phpexperts/docker-phan",
+    "description": "The quickest and easiest way to run phan with any PHP app.",
+    "keywords": [
+        "phan",
+        "docker",
+        "dockerize",
+        "static analysis"
+    ],
+    "homepage": "https://www.phpexperts.pro/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP Experts, Inc.",
+            "homepage": "https://www.phpexperts.pro/"
+        },
+        {
+            "name": "Theodore R. Smith",
+            "homepage": "https://www.linkedin.com/in/tedrsmith"
+        }
+    ],
+    "bin": ["bin/phan"]
+}
